@@ -7,7 +7,6 @@ class ProductManager {
     this.idCounter = 1;
     this.path = path;
   }
-
   
   addProduct(item) {
     const { title, description, price, thumbnail, code, stock } = item;
