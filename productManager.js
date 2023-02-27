@@ -102,7 +102,7 @@ class ProductManager {
 
 
 
-const productManager = new ProductManager(file);
+/* const productManager = new ProductManager(file);
 productManager.deleteAll();
 productManager.addProduct({
   title: "Producto 1",
@@ -127,22 +127,22 @@ productManager.addProduct({
   thumbnail: "estoEsUnaImg3.jpg",
   code: "Code003",
   stock: 30,
-});  
+}); */  
 
-const allProducts = productManager.getProducts();
-console.log(allProducts); 
+// const allProducts = productManager.getProducts();
+// console.log(allProducts); 
 
-const product01 = productManager.getProductById(1);
-console.log(product01);
+// const product01 = productManager.getProductById(1);
+// console.log(product01);
 
-const product3 = productManager.getProductById(2);
-console.log(product3);
+// const product3 = productManager.getProductById(2);
+// console.log(product3);
 
-const updatedProduct = productManager.updateProduct(1, {
-     title: "Esto es un cambio",
-     price: 6969,
-     code: "Code003"   
-  });
-console.log(updatedProduct)
-productManager.deleteProduct(2);
+// const updatedProduct = productManager.updateProduct(1, {
+//      title: "Esto es un cambio",
+//      price: 6969,
+//      code: "Code003"   
+//   });
+// console.log(updatedProduct)
+// productManager.deleteProduct(2);
   
